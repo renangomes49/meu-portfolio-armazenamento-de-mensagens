@@ -1,0 +1,75 @@
+#experiencias {
+    padding: 40px 5%;
+    color: #fff;
+}
+
+#experiencias a {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: underline
+}
+
+#experiencias h1 {
+    color: #fff;
+    font-size: 25px;
+    width: 100%;
+    max-width: 250px;
+}
+
+#experiencias span {
+    color: #ff0a54;
+}
+
+#experiencias-content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.experiencias-content-box {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    transition: .2s;
+    padding: 40px;
+}
+
+.experiencias-content-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px;
+}
+
+.atividas-experiencias{
+    margin-top: 10px;
+    padding-left: 30px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1100px){
+    .experiencias-content-box {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    section#experiencias{
+        padding: 10%;
+    }
+}
+
+@media screen and (max-width: 770px){
+    #experiencias h3 {
+        font-size: 18px;
+    }
+
+    p,li {
+        font-size: 12px;
+    }
+}
+
+
+
+

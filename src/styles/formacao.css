@@ -1,0 +1,40 @@
+#formacao {
+    padding: 40px 5%;
+}
+
+#formacao #formacao-content {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 48px;
+}
+
+#img-formacao{
+    width: 500px;
+    height: auto;
+    border-radius: 100%;
+}
+
+#formacao-content-txt {
+    color: #fff;
+}
+
+#formacao-content-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+}
+
+#formacao-content-txt ul {
+    list-style: none;
+}
+
+@media screen and (max-width: 1000px){
+    #img-formacao{
+        display: none;
+    }
+}

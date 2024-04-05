@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio - Renan Gomes</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/inicio.css">
+    <link rel="stylesheet" href="styles/formacao.css">
+    <link rel="stylesheet" href="styles/tecnologias.css">
+    <link rel="stylesheet" href="styles/experiencias.css">
+    <link rel="stylesheet" href="styles/contato.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/saiba-mais.css">
+</head>
+<body>
+    
+    <header>
+        <div class="page-width">
+
+            <div id="logo">
+                <a href="#contato"><i class="bi bi-laptop"> Renan Gomes</i></a>
+            </div>
+
+            <nav id="navbar">
+                <ul>
+                    <li class="nav-item active"><a href="#inicio">Início</a></li>
+                    <li class="nav-item"><a href="#formacao">Formação</a></li>
+                    <li class="nav-item"><a href="#tecnologias">Tecnologias</a></li>
+                    <li class="nav-item"><a href="#experiencias">Experiências Profissionais</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato btn-header">
+                <a href="#contato"><button>Contato</button></a>
+            </div>
+
+            <!-- navbar mobile -->
+            <button id="btn-mobile"><i class="fa-solid fa-bars"></i></button>
+
+            <div id="menu-mobile">
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#formacao">Formação</a></li>
+                        <li><a href="#tecnologias">Tecnologias</a></li>
+                        <li><a href="#experiencias">Experiências</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <div class="page-width">
+
+                <div id="sobre-mim">
+                    <h1>OLÁ, <span>SOU RENAN GOMES!</span></h1>
+                    
+                    <div id="apresentacao">
+                        <p>Sou desenvolvedor Web.</p>
+                        <p>
+                            Já estagiei para 2 empresas como desenvolvedor.
+                            Minha primeira experiência foi trabalhando como desenvolvedor Back-End.
+                            Na minha segunda experiência, trabalhei como desenvolvedor Full-Stack.
+                        </p>
+                        <p>Atualmente, faço parte de um programa de residência em desenvolvimento 
+                            de software.
+                        </p>
+                        <p>Procuro sempre estar estudando mais sobre as tecnologias na qual trabalho, 
+                            para que eu possa sempre estar evoluindo.
+                        </p>
+                    </div>
+
+                    <div class="btn-contato">
+                        <a href="#envio-msg"><button>Envie sua mensagem</button></a>
+                    </div>
+                </div>
+
+                <div id="img-inicio">
+                    <img src="images/renan.jpeg" alt="">
+                </div>
+            </div>    
+        </section>
+
+        <section id="formacao">
+            <div class="page-width">
+                <h2 class="titulo-page">MINHA <span>FORMAÇÃO</span> </h2>
+                <div id="formacao-content">
+                    <img id="img-formacao" src="images/8771935.jpg" alt="">
+                    <div id="formacao-content-txt">
+                        <h4>Universidade Federal do Ceará - Campus Quixadá</h2>
+                        <ul>
+                            <li>Ciência da Computação</li>
+                        </ul>
+                        <h4>Outros</h4>
+                        <ul>
+                            <li>Especialista Java/Spring REST - AlgaWorks</li>
+                            <li>Formação Java Web Full-Stack pela JDev Treinamento</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tecnologias">
+            <div class="page-width">
+                <h2 class="titulo-page">TECNOLOGIAS <span>QUE TRABALHO</span> </h2>
+                <div id="tecnologias-content">
+                    <div class="tecnologias-content-box">
+                        <div class="icone">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <h3>Front-End</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>TypeScript</li>
+                            <li>Angular</li>
+                            <li>Vue.js</li>
+                        </ul>
+                    </div>
+
+                    <div class="tecnologias-content-box">
+                        <div class="icone">
+                            <i class="fa-brands fa-java"></i>
+                        </div>
+                        <h3>Back-End</h3>
+                        <ul>
+                            <li>Java</li>
+                            <li>Spring</li>
+                            <li>Jpa/Hibernate</li>
+                            <li>Junit/Mockito</li>
+                        </ul>
+                    </div>
+
+                    <div class="tecnologias-content-box">
+                        <div class="icone">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <h3>Banco de Dados</h3>
+                        <ul>
+                            <li>PostgreSQL</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencias">
+            <div class="page-width">
+                <h2 class="titulo-page">MINHAS <span>EXPERIÊNCIAS</span> </h2>
+                <div id="experiencias-content">
+                    <div class="experiencias-content-box">
+                        <h1>#1 <span>EXPERIÊNCIA</span></h1>
+                        <div class="experiencias-content-box-txt">
+                            <h3>NPI - Núcleo de Práticas em Informática UFC - Desenvolvedor Full Stack</h3>
+                            <p>Av. José de Freitas Queiroz, 5003 - Quixadá, CE, 63902-580</p>
+                            <p>MARÇO 2023 - DEZEMBRO 2023</p>
+                            <div class="atividas-experiencias">
+                                <ul>
+                                    <li>Trabalhava no desenvolvimento de um sistema de prontuário eletrônico para as clínicas de odontologia da Universidade Federal do Ceará.</li>
+                                    <li>Nesse trabalho, atuei no desenvolvimento das interfaces do sistema. Atuei também no
+                                        desenvolvimento back-end do sistema, onde implementava novos endpoints para API que estava
+                                        sendo desenvolvida. Trabalhava na criação de consultas SQL. Atuava na integração entre o front-end
+                                        e o back-end do sistema.
+                                    </li>
+                                    <li>Tecnologias utilizadas: 
+                                        <a onclick="return abrirModalVueJs()">Vue.js</a>, 
+                                        <a onclick="return abrirModalJava()">Java</a>, 
+                                        <a onclick="return abrirModalSpring()">Spring</a>,
+                                        <a onclick="return abrirModalPostgreSql()">PostgreSQL</a>,
+                                        <a onclick="return abrirModalGit()">Git</a>
+                                        e 
+                                        <a onclick="return abrirModalGitLab()">GitLab.</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experiencias-content-box">
+                        <h1>#2 <span>EXPERIÊNCIA</span></h1>
+                        <div class="experiencias-content-box-txt">
+                            <h3>SUNNE SISTEMAS DE WEB LTDA - Desenvolvedor Back-End Java</h3>
+                            <p>RUA Silva Jatahy, 982 - Fortaleza, CE, 60165-070</p>
+                            <p>JANEIRO 2022 - MAIO 2022</p>
+                            <p></p>
+                            <div class="atividas-experiencias">
+                                <ul>
+                                    <li>Nessa empresa, eu estava alocado para trabalhar na plataforma de pós-venda da empresa.</li>
+                                    <li>Eu trabalhava com desenvolvimento de endpoints, manutenção de endpoints, criação de testes unitários.</li>
+                                    <li>Tecnologias utilizadas: Java, Spring, 
+                                        <a onclick="return abrirModalJunit()">Junit</a>, 
+                                        <a onclick="return abrirModalMockito()">Mockito</a>,
+                                        <a onclick="return abrirModalSwagger()">Swagger</a>,
+                                        <a onclick="return abrirModalDocker()">Docker</a>,
+                                        <a onclick="return abrirModalMysql()">MySQL</a>.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="saiba-mais">
+            <div class="modal" id="modal-java" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Java</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>O que é Java?</h3>
+                      <p>
+                        Java é uma linguagem de programação e plataforma 
+                        de computação lançada pela primeira vez pela Sun Microsystems em 1995.
+                        Ela evoluiu de um começo humilde para impulsionar uma grande parte do mundo digital atual, 
+                        fornecendo a plataforma confiável sobre a qual muitos serviços e aplicativos são construídos. Produtos 
+                        e serviços digitais novos e inovadores projetados para o futuro também continuam a contar com Java.
+                      </p>
+                      
+                      <p>Veja o vídeo abaixo para conhecer um pouco mais da linguagem de programação Java</p>
+
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/sZAxLRMxEUo?si=kDRzQfovKisatSd6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                      <p>Para saber mais sobre o Java 
+                        <a href="https://www.java.com/pt-BR/" target="_blank">acesse.</a>
+                      </p>
+                      <h3>Vantagens</h3>
+                      <ul>
+                        <li>Portabilidade</li>
+                        <li>Grande comunidade e ecossistema</li>
+                        <li>Segurança</li>
+                      </ul>
+                      <h3>Desvantagens</h3>
+                      <ul>
+                        <li>Performance relativa</li>
+                        <li>Consumo de memória</li>
+                        <li>Curva de aprendizado inicial</li>
+                      </ul>
+                      <h3>Empresas que utilizam Java</h3>
+                      <ul>
+                        <li>Mercado Livre</li>
+                        <li>Shopee</li>
+                        <li>Amazon</li>
+                        <li>Hotmart</li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <div class="btn-contato btn-header">
+                         <button data-bs-dismiss="modal">Fechar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-vue-js" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Vue.Js</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é Vue.js?</h3>
+                        <p>
+                            Vue é uma estrutura JavaScript para construção de interfaces de usuário. 
+                            Ele se baseia em HTML, CSS e JavaScript padrão e fornece um modelo de programação 
+                            declarativo e baseado em componentes 
+                            que ajuda a desenvolver interfaces de usuário com eficiência, sejam elas simples ou complexas.
+                        </p>  
+                        <p>Para saber mais sobre Vue.js 
+                          <a href="https://vuejs.org/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Simplicidade e facilidade de aprendizado</li>
+                          <li>Reatividade e renderização eficiente</li>
+                          <li>Flexibilidade e escalabilidade</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Menos suporte corporativo em comparação com concorrentes</li>
+                          <li>Ecossistema em constante evolução</li>
+                          <li>Menor número de recursos prontos em comparação com concorrentes</li>
+                        </ul>
+                        <h3>Empresas que utilizam Vue.js</h3>
+                        <ul>
+                          <li>GitLab</li>
+                          <li>Nintendo</li>
+                          <li>Adobe</li>
+                          <li>Grammarly</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-spring" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Spring</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é Spring?</h3>
+                        <p>
+                            Spring é uma tecnologia de Back-end. Não é um framework apenas, 
+                            mas um conjunto de projetos
+                            que resolvem vários problemas do dia-a-dia de um programador back-end. Ele ajuda criar
+                            aplicações Java com simplicidade e com flexibilidade.
+                        </p>  
+                        <p>Para saber mais sobre Spring 
+                          <a href="https://spring.io/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Flexível</li>
+                          <li>Produtivo</li>
+                          <li>Seguro</li>
+                          <li>Open source</li>
+                          <li>Comunidade grande e forte</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Curva de aprendizado inicial</li>
+                          <li>Configuração complexa</li>
+                          <li>Overhead devido à reflexão e injeção de dependência</li>
+                        </ul>
+                        <h3>Empresas que utilizam Spring</h3>
+                        <ul>
+                          <li>Netflix</li>
+                          <li>Bank of America</li>
+                          <li>Itaú</li>
+                          <li>Santander</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-postegre-sql" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">PostgreSQL</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é PostgreSQL?</h3>
+                        <p>
+                            PostgreSQL é um poderoso sistema de banco de dados relacional de objeto de código aberto 
+                            que usa e estende a linguagem SQL combinada com muitos recursos que armazenam e escalam com 
+                            segurança as cargas de trabalho de dados mais complicadas. 
+                        </p>  
+                        <p>Para saber mais sobre PostgreSQL 
+                          <a href="https://www.postgresql.org/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Robustez e confiabilidade</li>
+                          <li>Suporte a tipos de dados avançados</li>
+                          <li>Extensibilidade e flexibilidade</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Consumo de recursos</li>
+                          <li>Curva de aprendizado inicial</li>
+                          <li>Menor adoção em comparação com MySQL ou Oracle</li>
+                        </ul>
+                        <h3>Empresas que utilizam PostgreSQL</h3>
+                        <ul>
+                          <li>Apple</li>
+                          <li>Netflix</li>
+                          <li>Uber</li>
+                          <li>Instagram</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-git" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Git</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é Git?</h3>
+                        <p>
+                            Git é um sistema de controle de versão distribuído gratuito e de código aberto,
+                            projetado para lidar com tudo, desde projetos pequenos a muito grandes, com velocidade e eficiência.
+                        </p>  
+                        <p>Para saber mais sobre Git 
+                          <a href="https://git-scm.com/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Controle de versão eficiente</li>
+                          <li>Colaboração facilitada</li>
+                          <li>Histórico detalhado e rastreabilidade</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Curva de aprendizado inicial</li>
+                          <li>Potencial para conflitos durante merges</li>
+                          <li>Necessidade de gerenciamento adequado de repositórios</li>
+                        </ul>
+                        <h3>Empresas que utilizam Git</h3>
+                        <ul>
+                          <li>GitHub</li>
+                          <li>Google</li>
+                          <li>Microsoft</li>
+                          <li>Facebook</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-git-lab" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">GitLab</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é GitLab?</h3>
+                        <p>
+                            O GitLab é um gerenciador de repositório de software baseado em git, com suporte a Wiki, 
+                            gerenciamento de tarefas e CI/CD. GitLab é similar ao GitHub, mas o GitLab permite que os 
+                            desenvolvedores armazenem o 
+                            código em seus próprios servidores, ao invés de servidores de terceiros.
+                        </p>  
+                        <p>Para saber mais sobre GitLab
+                          <a href="https://about.gitlab.com/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Integração completa com Git</li>
+                          <li>Gerenciamento de ciclo de vida completo</li>
+                          <li>Flexibilidade e personalização</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Curva de aprendizado inicial</li>
+                          <li>Gerenciamento de recursos e escalabilidade</li>
+                          <li>Dependência de infraestrutura de terceiros</li>
+                        </ul>
+                        <h3>Empresas que utilizam GitLab</h3>
+                        <ul>
+                          <li>NASA</li>
+                          <li>Alibaba Group</li>
+                          <li>Sony</li>
+                          <li>Ticketmaster</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-junit" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Junit</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é Junit?</h3>
+                        <p>
+                            O JUnit é um framework open-source, que se assemelha ao raio de testes software java, 
+                            criado por Erich Gamma e Kent Beck, com suporte à criação de testes automatizados na linguagem de programação Java. 
+                            Esse framework facilita a criação e manutenção do código para a automação de testes com apresentação dos resultados.
+                        </p>  
+                        <p>Para saber mais sobre Junit
+                          <a href="https://junit.org/junit5/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Automatização de testes</li>
+                          <li>Integração com IDEs</li>
+                          <li>Framework robusto</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Complexidade para iniciantes</li>
+                          <li>Limitações em testes de integração</li>
+                          <li>Configuração de ambiente de testes</li>
+                        </ul>
+                        <h3>Empresas que utilizam Junit</h3>
+                        <ul>
+                          <li>Google</li>
+                          <li>Amazon</li>
+                          <li>Uber</li>
+                          <li>LinkedIn</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-mockito" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Mockito</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é Mockito?</h3>
+                        <p>
+                            Mockito é um framework de teste de código aberto para Java lançado sob a licença MIT. 
+                            A estrutura permite a criação de objetos duplos de teste em testes de unidade automatizados 
+                            para fins de desenvolvimento orientado a testes ou desenvolvimento orientado a comportamento.
+                        </p>  
+                        <p>Para saber mais sobre Mockito
+                          <a href="https://site.mockito.org/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Facilidade de criação de simulações (mocks)</li>
+                          <li>Integração com frameworks de teste</li>
+                          <li>Suporte a stubbing e verificação de comportamentos</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Curva de aprendizado inicial</li>
+                          <li>Potencial para testes frágeis</li>
+                          <li>Limitações em testes de integração</li>
+                        </ul>
+                        <h3>Empresas que utilizam Mockito</h3>
+                        <ul>
+                          <li>Google</li>
+                          <li>Netflix</li>
+                          <li>Twitter</li>
+                          <li>LinkedIn</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-swagger" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Swagger</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é Swagger?</h3>
+                        <p>
+                            Trata-se de uma aplicação open source que auxilia desenvolvedores nos processos de definir, 
+                            criar, documentar e consumir APIs REST.  Em suma, o Swagger visa padronizar este tipo de integração,
+                             descrevendo os recursos que uma API deve possuir, como endpoints,
+                             dados recebidos, dados retornados, códigos HTTP e métodos de autenticação, entre outros.
+                        </p>  
+                        <p>Para saber mais sobre Swagger
+                          <a href="https://swagger.io/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Documentação automática da API</li>
+                          <li>Interatividade com a API</li>
+                          <li>Padronização e consistência</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Dependência de ferramentas externas</li>
+                          <li>Complexidade inicial</li>
+                          <li>Manutenção da documentação</li>
+                        </ul>
+                        <h3>Empresas que utilizam Swagger</h3>
+                        <ul>
+                          <li>Microsoft</li>
+                          <li>Adobe</li>
+                          <li>LinkedIn</li>
+                          <li>PayPal</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-docker" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Docker</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é Docker?</h3>
+                        <p>
+                            O Docker é um software de código aberto usado para implantar aplicativos dentro de containers virtuais.
+                             A conteinerização permite que vários aplicativos funcionem em diferentes ambientes complexos. 
+                            Por exemplo: o Docker permite executar o WordPress em sistemas Windows, Linux e macOS, sem problemas.
+                        </p>  
+                        <p>Para saber mais sobre Docker
+                          <a href="https://www.docker.com/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Isolamento de aplicativos</li>
+                          <li>Portabilidade e consistência</li>
+                          <li>Eficiência e escalabilidade</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Gerenciamento de contêineres</li>
+                          <li>Complexidade inicial</li>
+                          <li>Overhead de recursos</li>
+                        </ul>
+                        <h3>Empresas que utilizam Docker</h3>
+                        <ul>
+                          <li>Spotify</li>
+                          <li>Uber</li>
+                          <li>Netflix</li>
+                          <li>eBay</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-my-sql" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">MySQL</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é MySQL?</h3>
+                        <p>
+                            O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. 
+                            É atualmente um dos sistemas de gerenciamento de bancos de dados
+                             mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.
+                        </p>  
+                        <p>Para saber mais sobre MySQL
+                          <a href="https://www.mysql.com/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Gratuito e de código aberto</li>
+                          <li>Desempenho e escalabilidade</li>
+                          <li>Ampla compatibilidade</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Complexidade em configurações avançadas</li>
+                          <li>Escalabilidade vertical limitada</li>
+                          <li>Limitações em funcionalidades avançadas</li>
+                        </ul>
+                        <h3>Empresas que utilizam MySQL</h3>
+                        <ul>
+                          <li>Facebook</li>
+                          <li>YouTube</li>
+                          <li>Twitter</li>
+                          <li>Wikipedia</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="page-width">
+                <h2 class="titulo-page">MEUS <span>CONTATOS</span> </h2>
+                <div id="contato-content">
+                    <div id="meus-contato">
+                        <h2>Minhas redes</h2>
+                        <p>Segue algumas informações abaixo, caso queira entrar em contato ou ver mais sobre os projetos que desenvolvi.</p>
+                        <div id="meus-contato-icones">
+                            <a href="#contato"><i class="fa-brands fa-square-whatsapp"></i>
+                                (88) 99650-8110
+                            </a>
+                            <a href="#contato" id="contato-email">
+                                <i class="fa-solid fa-envelope"></i>
+                                renangomes.49@hotmail.com
+                            </a>
+                            <a href="https://www.linkedin.com/in/renan-moreira-gomes/" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                                Meu Linkedin
+                            </a>
+                            <a href="https://github.com/renangomes49" target="_blank">
+                                <i class="fa-brands fa-github"></i>Meu GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div id="envio-msg">
+                        <h2>Envie sua mensagem</h2>
+                        <form>
+                            <input type="text" placeholder="Digite o seu nome:">
+                            <input type="text" placeholder="Digite o seu email:">
+                            <textarea placeholder="Digite sua mensagem:"></textarea>                               
+                            <div class="btn-contato"><button>Enviar</button></div>  
+                        </form>
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="page-width">
+            <div id="footer-content">
+                <div id="logo">
+                    <a href="#"><i class="bi bi-laptop"> Renan Gomes</i></a>
+                </div>
+                <div>
+                    <a href="#contato"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href="#contato"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/renan-moreira-gomes/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/renangomes49" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
