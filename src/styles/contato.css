@@ -57,6 +57,11 @@ p,h2 {
     margin-top: 40px;
 }
 
+#envio-msg button a {
+    text-decoration: none;
+    color: #000;
+}
+
 form {
     padding: 20px;
     width: 600px;

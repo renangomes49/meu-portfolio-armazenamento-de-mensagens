@@ -15,6 +15,9 @@ btn.addEventListener("click", function(e){
         mensagem: mensagemInput.value,
     }
 
+    if(mensagensSubmetidas.length === 0 && localStorage.getItem("lista-contatos") !== null){
+        mensagensSubmetidas = JSON.parse(localStorage.getItem("lista-contatos"));
+    }
     mensagensSubmetidas.push(contato);
 
     localStorage.setItem("lista-contatos", JSON.stringify(mensagensSubmetidas));
@@ -23,4 +26,8 @@ btn.addEventListener("click", function(e){
     emailInput.value = "";
     mensagemInput.value = "";
 });
+
+
+
+
 
