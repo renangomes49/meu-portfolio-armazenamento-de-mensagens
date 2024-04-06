@@ -1,3 +1,13 @@
 #listagem-mensagens{
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
 }

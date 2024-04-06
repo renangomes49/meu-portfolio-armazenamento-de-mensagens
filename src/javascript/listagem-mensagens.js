@@ -24,3 +24,10 @@ function listarMensagens(){
 }
 
 listarMensagens();
+
+var btn = document.querySelector("#btn-limpar-tabela");
+
+btn.addEventListener("click", function(e){
+    localStorage.clear();
+    listarMensagens();
+});
